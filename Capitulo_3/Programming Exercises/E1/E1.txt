@@ -1,0 +1,18 @@
+//EJERCICIO 1
+Suponiendo que se ha creado un programa solo
+con las siguientes variables:
+int v = 4;
+int w = 6;
+double x = 2.2;
+supon que tambien tienes un metodo
+con la siguiente cabecera
+public static void calculate(int x, double y)
+
+Respuesta:
+a. calculate(v, w);---Ilegal
+b. calculate(v, x);---LEGAL
+c. calculate(x, y);---ILEGAL (No existe variable y en el programa,
+ aunque si en el metodo)
+d. calculate(18, x);----LEGAL
+e. calculate(1.1, 2.2);--ILEGAL
+f. calculate(5, 7);-----LEGAL

@@ -1,0 +1,15 @@
+//EJERCICIO 2
+Suponiendo una clase llamada ClassA, contiene:
+private nonstatic integer named b,
+public nonstatic integer named c,
+public static integer named d,
+Cual de las siguientes declaraciones son correctas y cuales no,
+en una clase llamada ClassB, que tiene istanciado un objeto
+ClassA obA = new ClassA()
+
+a. obA.b = 12;--------ILEGAL
+b. obA.c = 5;---------LEGAL
+c. obA.d = 23;--------LEGAL
+d. ClassA.b = 4;------ILLEGAL
+e. ClassA.c = 33;-----ILLEGAL
+f. ClassA.d = 99;-----LEGAL
